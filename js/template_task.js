@@ -370,7 +370,7 @@ function getSubtaskListElementTemplate(subtask, subtaskSavedCounter) {
   return `
     <li class="subtask-list-element" id="subtask-${subtaskSavedCounter}">
       <div class="subtask-list-element-div" id="subtask-list-element-div${subtaskSavedCounter}">
-        • ${subtask} <input type="checkbox" id="subtask-checkbox${subtaskSavedCounter}" class="subtask-checkbox hidden">
+         ${subtask} <input type="checkbox" id="subtask-checkbox${subtaskSavedCounter}" class="subtask-checkbox hidden">
         <div class="pen-and-bin-container">
           <svg class="pen-icon-before-edit" onclick="editSavedSubtask(${subtaskSavedCounter}, '${subtask.replace(
     /'/g,
