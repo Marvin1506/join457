@@ -39,7 +39,7 @@ function addSubtaskInContainer() {
   const taskSubtask = document.getElementById("inputfield-subtask-assign");
   const savedSubtasks = document.getElementById("subtask-added-tasks");
   const buttonDiv = document.getElementById("clear-create-container");
-  let subtask = taskSubtask.value.trim();
+  let subtask = taskSubtask.value.trim().replace(/^•\s*/, "");
 
   if (subtask) {
     savedSubtasks.innerHTML += getSubtaskListElementTemplate(subtask, subtaskSavedCounter);
