@@ -32,7 +32,5 @@ Dynamic data handling
 User interface development
 Live Demo
 
-Add your GitHub Pages link here:
-
 https://marvin-mutwil.developerakademie.net/A-Developer-Akademie-Projekte/join457/login.html
 Preview
