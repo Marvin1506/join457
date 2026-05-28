@@ -4,9 +4,20 @@ function addStyleForDropdownAnimation() {
   dropdown.classList.remove("display-none");
 }
 
+/** Adds a formatted subtask object to the subtasks array.
+ * @param {Array<Object>} subtasksArray - The array where the subtask object will be stored.
+ * @param {HTMLElement} subtaskTextElement - The DOM element containing the subtask text.
+ */
+function pushSubtaskToArray(subtasksArray, subtaskTextElement) {
+  subtasksArray.push({
+    subtaskText: subtaskTextElement.textContent.trim(),
+    statusCheckbox: false,
+  });
+}
+
 /** Adds a subtask object to the subtasks array. *
  * @param {Array} subtasksArray - The array to which the new subtask object will be added.
- * @param {HTMLElement} subtaskTextElement - The DOM element containing the subtask text./
+ * @param {HTMLElement} subtaskTextElement - The DOM element containing the subtask text.*/
 /** Rebuilds and returns the current subtasks array from the DOM. */
 function updateSubtasksArray() {
   let subtasksArray = [];
