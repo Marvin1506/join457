@@ -36,6 +36,24 @@ https://marvin-mutwil.developerakademie.net/A-Developer-Akademie-Projekte/join45
 
 ## Preview
 
+![Preview](./demo/join-preview.jpg)
 
+## Demo Videos
 
+### Registration
+[Watch Registration Demo](./demo/registration.mp4)
 
+### Login
+[Watch Login Demo](./demo/login.mp4)
+
+### Summary
+[Watch Summary Demo](./demo/summary.mp4)
+
+### Add Task
+[Watch Add Task Demo](./demo/AddTask.mp4)
+
+### Board
+[Watch Board Demo](./demo/Board.mp4)
+
+### Contacts
+[Watch Contacts Demo](./demo/contacts.mp4)
