@@ -36,40 +36,6 @@ https://marvin-mutwil.developerakademie.net/A-Developer-Akademie-Projekte/join45
 
 ## Preview
 
-![Preview](./assets/preview.png)
 
----
 
-## Registration Demo
 
-<video src="./demo/registration.mp4" controls width="900"></video>
-
----
-
-## Login Demo
-
-<video src="./demo/login.mp4" controls width="900"></video>
-
----
-
-## Summary Demo
-
-<video src="./demo/summary.mp4" controls width="900"></video>
-
----
-
-## Add Task Demo
-
-<video src="./demo/AddTask.mp4" controls width="900"></video>
-
----
-
-## Board Demo
-
-<video src="./demo/Board.mp4" controls width="900"></video>
-
----
-
-## Contacts Demo
-
-<video src="./demo/contacts.mp4" controls width="900"></video>
